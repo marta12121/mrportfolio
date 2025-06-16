@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8b5c6bc1a1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="#home">MR</a>
+            </div>
+            <nav class="header__navigation">
+                <ul class="header__list">
+                    <li><a href="#home" class="header__link">Home</a></li>
+                    <li><a href="#about" class="header__link">About</a></li>
+                    <li><a href="#skills" class="header__link">Skills</a></li>
+                    <li><a href="#projects" class="header__link">Projects</a></li>
+                    <li><a href="#contacts" class="header__link">Contacts</a></li>
+                </ul>
+            </nav>
+            <nav class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </nav>
+            <div class="mobile-nav" id="mobileNav">
+                <ul class="mobile-nav__list">
+                    <li><a href="#home" class="mobile-nav__link">Home</a></li>
+                    <li><a href="#about" class="mobile-nav__link">About</a></li>
+                    <li><a href="#skills" class="mobile-nav__link">Skills</a></li>
+                    <li><a href="#projects" class="mobile-nav__link">Projects</a></li>
+                    <li><a href="#contacts" class="mobile-nav__link">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="overlay" id="overlay"></div>
+        </div>
+    </header>
+    <main>
+        <div class="main__container" id="home">
+            <section class="section-text" data-aos="fade-right" data-aos-duration="600" data-aos-easing="ease-in-out">
+                <h1>Front-End Developer</h1>
+                <p class="peronal_links"> <a href="https://github.com/marta12121"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="#"><i class="fa-solid fa-download"></i> My Resume</a></p>
+                <a href="#">Get started</a>
+            </section>
+            <section class="section-img" data-aos="fade-left" data-aos-duration="600" data-aos-easing="ease-in-out">
+                <div class="img__graphics">
+                    <img src="images/avatar.jpg" alt="">
+                </div>
+            </section>
+        </div>
+        <div class="about__container" id="about">
+            <article>
+                <h2 data-aos="fade-right" data-aos-duration="600" data-aos-easing="ease-in-out">MARTA ROMANYSHYN</h2>
+                <p>I am a beginner in frontend developing. I am enthusiastic and passionate about process. I enjoy creating meaningful and delightful digital products that balance user needs and business goals.</p>
+            </article>
+        </div>
+        <!-- <div class="features__container">
+            <section class="section-card">
+                <img src="images/card_icon-1.png" alt="">
+                <h4>Customizable card</h4>
+                <p>Custom your own card for your exact incomes and expenses needs.</p>
+            </section>
+            <section class="section-coin">
+                <img src="images/coin_icon.png" alt="">
+                <h4>No payment fee</h4>
+                <p>Transfer your payment all over the world with no payment fee.</p>
+            </section>
+            <section class="section-purse">
+                <img src="images/purse_icon.png" alt="">
+                <h4>All in one place</h4>
+                <p>The right place to keep your credit and debit cards, boarding passes & more.</p>
+            </section>
+
+        </div> -->
+
+
+        <div class="skills__container" id="skills">
+            <div class="skills-box">
+                <h2 data-aos="fade-right" data-aos-duration="600" data-aos-easing="ease-in-out">MY TECH STACK</h2>
+                <i class="fa fa-html5"></i>
+                <i class="fa fa-css3"></i>
+                <i class="fa-brands fa-sass"></i>
+                <i class="fa-brands fa-bootstrap"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa fa-code-fork" aria-hidden="true"></i>
+                <i class="fa fa-github"></i>
+                <i class="fa fa-terminal"></i>
+                <i class="fa-brands fa-trello"></i>
+                <i class="fa fa-laptop"></i>
+                <i class="fa fa-wordpress"></i>
+                <i class="fa-brands fa-figma"></i>
+            </div>
+        </div>
+        <div class="projects__container" id="projects">
+            <div class="projects-title">
+                <h2 data-aos="fade-right" data-aos-duration="600" data-aos-easing="ease-in-out">MY PROJECTS</h2>
+            </div>
+            <div class="projects-box">
+                <section>
+                    <img src="images/img10.png" alt="">
+                    <h4 class="project__name">Portfolio Project</h4>
+                    <p class="project__description">Portfolio Project.</p>
+                    <p class="project__tools">Tech stack: HTML5, CSS3 JS.</p>
+                    <div class="project-item__links">
+                        <a href="https://marta12121.github.io/portfolio/8-practise-scroll/index.html" class="project-item__link link"><i class="fa-brands fa-github"></i> Live Preview</a>
+                        <a href="https://github.com/marta12121/portfolio/tree/master/8-practise-scroll" class="project-item__link link"><i class="fa-solid fa-link"></i> View Code</a>
+                    </div>
+                </section>
+                <section>
+                    <img src="images/img3.png" alt="">
+                    <h4 class="project__name">Engineering the Digital Future</h4>
+                    <p class="project__description">This page is built with Bootstrap 5 and also HTML5, CSS3.</p>
+                    <p class="project__tools">Tech stack: HTML5, CSS3, Bootstrap 5.</p>
+                    <div class="project-item__links">
+                        <a href="https://marta12121.github.io/portfolio/4-exercise-bootstrap/index.html" class="project-item__link link"><i class="fa-brands fa-github"></i> Live Preview</a>
+                        <a href="https://github.com/marta12121/portfolio/tree/master/4-exercise-bootstrap" class="project-item__link link"><i class="fa-solid fa-link"></i> View Code</a>
+                    </div>
+                </section>
+                <section>
+                    <img src="https://marta12121.github.io/cursor_tasks/HW_12/img/background.jpeg" alt="">
+                    <h4 class="project__name">Star Wars</h4>
+                    <p class="project__description">This page is built with HTML5, CSS3, JS. Also I`ve used <a href="http://swapi.dev/">SWAPI</a> to get information about characters.</p>
+                    <p class="project__tools">Tech stack: HTML5, CSS3, JS.</p>
+                    <div class="project-item__links">
+                        <a href="https://marta12121.github.io/cursor_tasks/HW_12/main-page/index.html" class="project-item__link link"><i class="fa-brands fa-github"></i> Live Preview</a>
+                        <a href="https://github.com/marta12121/portfolio/tree/master/5-bootstrap-page" class="project-item__link link"><i class="fa-solid fa-link"></i> View Code</a>
+                    </div>
+                </section>
+                <section>
+                    <img src="images/img4.png" alt="">
+                    <h4 class="project__name">PEAKS - Hiking Club</h4>
+                    <p class="project__description">This page is built with Bootstrap 5 and also HTML5, CSS3.</p>
+                    <p class="project__tools">Tech stack: HTML5, CSS3, Bootstrap 5.</p>
+                    <div class="project-item__links">
+                        <a href="https://marta12121.github.io/portfolio/5-bootstrap-page/index.html" class="project-item__link link"><i class="fa-brands fa-github"></i> Live Preview</a>
+                        <a href="https://github.com/marta12121/portfolio/tree/master/5-bootstrap-page" class="project-item__link link"><i class="fa-solid fa-link"></i> View Code</a>
+                    </div>
+                </section>
+                <section>
+                    <img src="images/img1.png" alt="">
+                    <h4 class="project__name">Customers Around the World</h4>
+                    <p class="project__description">This page is built with HTML5, CSS3 and also with mobile first method.</p>
+                    <p class="project__tools">Tech stack: HTML5, CSS3.</p>
+                    <div class="project-item__links">
+                        <a href="https://marta12121.github.io/portfolio/7-mobile-first/index.html" class="project-item__link link"><i class="fa-brands fa-github"></i> Live Preview</a>
+                        <a href="https://github.com/marta12121/portfolio/tree/master/7-mobile-first" class="project-item__link link"><i class="fa-solid fa-link"></i> View Code</a>
+                    </div>
+                </section>
+                <section>
+                    <img src="images/img10.png" alt="">
+                    <h4 class="project__name">Clouds Animation</h4>
+                    <p class="project__description">This page is built with HTML5, CSS3. Also I`ve used scroll-out.js library for animation with scrolling.</p>
+                    <p class="project__tools">Tech stack: HTML5, CSS3, JS.</p>
+                    <div class="project-item__links">
+                        <a href="https://marta12121.github.io/portfolio/8-practise-scroll/index.html" class="project-item__link link"><i class="fa-brands fa-github"></i> Live Preview</a>
+                        <a href="https://github.com/marta12121/portfolio/tree/master/8-practise-scroll" class="project-item__link link"><i class="fa-solid fa-link"></i> View Code</a>
+                    </div>
+                </section>
+                <!-- <section>
+                    <img src="images/img12.png" alt="">
+                    <h4 class="project__name">Landing Page</h4>
+                    <p class="project__description">This page is built with HTML5, CSS3, JS, also using preprocessor SCSS.</p>
+                    <p class="project__tools">Tech stack: HTML5, CSS3(SCSS).</p>
+                    <div class="project-item__links">
+                        <a href="https://marta12121.github.io/digiway-task/" class="project-item__link link"><i class="fa-brands fa-github"></i> Live Preview</a>
+                        <a href="https://github.com/marta12121/digiway-task" class="project-item__link link"><i class="fa-solid fa-link"></i> View Code</a>
+                    </div>
+                </section> -->
+            </div>
+        </div>
+    </main>
+    <hr>
+    <footer class="footer__container" id="contacts">
+        <div class="footer-left">
+            <div class="header__logo">
+                <a href="#home">MR</a>
+            </div>
+            <nav class="footer__navigation">
+                <a href="https://github.com/marta12121"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/marta-romanyshyn-944bb4206/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="mailto:tuznuk.marta@gmail.com"><i class="fa-solid fa-envelope"></i> E-mail</a>
+                <a href="#"><i class="fa-solid fa-download"></i> My Resume</a>
+            </nav>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
