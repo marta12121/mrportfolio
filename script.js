@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('load', function() {
         setTimeout(() => {
             preloader.style.display = 'none';
-        }, 1500);
+        }, 1000);
     });
     const mobileMenu = document.querySelector('.mobile-menu');
     const mobileNav = document.getElementById('mobileNav');
